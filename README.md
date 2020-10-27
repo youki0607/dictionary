@@ -22,3 +22,12 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# テーブル設計
+
+## index テーブル
+| Column      | Type   | Options     |
+| ----------- | ------ | ----------- |
+| name        | string | null: false |
+| explanation | text   | null: false |
+| image       | string | null: false |
