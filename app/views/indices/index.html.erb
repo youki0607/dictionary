@@ -1,0 +1,10 @@
+<div class="contents row">
+  <% @indices.each do |index| %>
+    <div class="content_post" style="background-image: url(<%= index.image %>);">
+      <p><%= index.explanation%></p>
+      <span class="name">
+        <%= index.name %>
+      </span>
+    </div>
+  <% end %>
+</div>
