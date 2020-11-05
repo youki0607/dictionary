@@ -1,0 +1,27 @@
+/* head,
+footer,
+div.contents.row,
+div.container
+
+{
+  display: block;
+  ;
+} */
+
+/* div.header__bar.row{
+  background-color: aqua;
+  width: 100vw;
+  height: 50px;
+} */
+
+header
+div.user_nav.grid-6,
+div.contents.row
+{
+  display: block;
+}
+
+grid-6,
+div.post{
+  display: inline-flex;
+}
