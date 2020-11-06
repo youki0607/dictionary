@@ -14,7 +14,7 @@ div.container
   height: 50px;
 } */
 
-header
+/* header
 div.user_nav.grid-6,
 div.contents.row
 {
@@ -24,4 +24,16 @@ div.contents.row
 grid-6,
 div.post{
   display: inline-flex;
+} */
+
+header{
+  width: 100vw;
+  height: 100px;
+  background-color: aqua;
+}
+
+h1.grid-6,
+a.post
+{
+  display: flex;
 }
