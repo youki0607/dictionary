@@ -26,14 +26,49 @@ div.post{
   display: inline-flex;
 } */
 
-header{
+div.header__bar.row{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+/* header{
   width: 100vw;
   height: 100px;
   background-color: aqua;
+} */
+/* 
+head{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+} */
+
+h1.grid-6{
+  font-size: 30px;
+  color: purple;
+  border: 3px solid purple;
+  padding: 3px;
 }
 
-h1.grid-6,
-a.post
-{
+a.post{
+  font-size: 30px;
+  color: purple;
+  border: 3px solid purple;
+  padding: 9px;
+}
+
+footer{
   display: flex;
+  justify-content: space-around;
+}
+
+body{
+  width: 100%;
+  height: (100vh - 80px);
+  background-color: lightgray;
+  margin: 0;
 }
