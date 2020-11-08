@@ -72,3 +72,19 @@ body{
   background-color: lightgray;
   margin: 0;
 }
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+div.container{
+  display: block;
+}
+
+/* div.explanation{
+  width: 100px;
+  height: 100px;
+  display: block;
+} */
+
