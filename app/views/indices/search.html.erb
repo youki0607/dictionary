@@ -1,9 +1,9 @@
 <%= form_with(url: search_indices_path, local: true, method: :get, class: "search-form") do |form| %>
-  <%= form.text_field :keyword, placeholder: "Search", class: "search-input" %>
+  <%= form.text_field :keyworc, placeholder: "Search", class: "search-input" %>
   <%= form.submit "Search", class: "search-btn" %>
 <% end %>
 <div class="contents row">
-  <% @indices.each do |index| %>
+  <% @indices.each do |index|%>
     <%= render partial: "index", locals: { index: index } %>
   <% end %>
 </div>

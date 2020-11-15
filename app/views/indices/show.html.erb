@@ -1,0 +1,17 @@
+<div class="contents row">
+  <div class="content_post" style="background-image: url(<%= @index.image %>);">
+    <div class="more">
+      <span><%= image_tag 'arrow_top.png' %></span>
+      <ul class="more_list">
+        <li>
+          <%= link_to 'edit', edit_index_path(@index.id), method: :get %>
+        </li>
+        <li>
+          <%= link_to 'delete', index_path(@index.id), method: :delete %>
+        </li>
+      </ul>
+    </div>
+    <p><%= @index.explanation %></p>
+    <span class="name"><%= @index.name %></span>
+  </div>
+</div>
