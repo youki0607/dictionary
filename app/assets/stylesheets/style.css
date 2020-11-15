@@ -687,7 +687,7 @@ ul li {
 body,
 html {
   height: 100%;
-  background-color: #f5f5f3;
+  background-color: lightblue;
 }
 
 body {
@@ -1105,4 +1105,17 @@ footer p {
 
 .search-form .search-btn {
   width: 10%;
+}
+
+h4{
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  color: #000;
 }
