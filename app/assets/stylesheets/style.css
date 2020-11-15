@@ -1116,6 +1116,8 @@ h4{
   align-items: center;
 }
 
-p{
-  color: #000;
+h3{
+  display: flex;
+  justify-content: center;
+  color: blue;
 }
