@@ -1,5 +1,6 @@
 class IndicesController < ApplicationController
   before_action :set_index, only:[:edit, :show]
+  before_action :move_to_index, expect: [:index, :show]
 
   def index
     @indices = Index.all
@@ -42,4 +43,9 @@ class IndicesController < ApplicationController
     @index = Index.find(params[:id])
   end
 
+  def move_to_index
+    unless user_signed_in?
+      redirect_to action: :index
+    end
+  end
 end
