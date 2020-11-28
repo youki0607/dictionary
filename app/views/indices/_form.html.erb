@@ -1,6 +1,6 @@
 <%= form_with(model: index, local: true) do |form|%>
   <%= form.text_field :name, placeholder: "Add Language" %>
-  <%= form.file_field :image %>
+  <%= form.text_field :image %>
   <%= form.text_area :explanation, placeholder: "Text", rows: "10" %>
   <%= form.submit "Add" %>
 <% end %>
