@@ -1,6 +1,6 @@
 class IndicesController < ApplicationController
   before_action :set_index, only:[:edit, :show]
-  before_action :move_to_index, expect: [:index, :show]
+  # before_action :move_to_index, expect: [:index, :show]
 
   def index
     @indices = Index.all
@@ -47,6 +47,5 @@ class IndicesController < ApplicationController
     unless user_signed_in?
       redirect_to action: :index
     end
-    
   end
 end
